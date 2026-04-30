@@ -21,7 +21,7 @@ and extend detection visibility across endpoint and cloud.
 
 ### Experience
 
-**Security Operations Internship — 3 months**
+**Security Operations Analysts — 1 year **
 
 - Triaged **20–50 security alerts per day** in Splunk, investigating endpoint, 
   network, and authentication events to separate true positives from benign activity.
