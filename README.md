@@ -95,7 +95,7 @@ MITRE ATT&CK mapping, Detection logic, False positive analysis, Rule tuning
 AWS IAM, EC2, S3, CloudTrail, CloudWatch, VPC Flow Logs, Shared responsibility model
 
 **Scripting**
-Python, PowerShell, Bash
+PowerShell, Bash
 
 **Frameworks**
 MITRE ATT&CK, NIST CSF, Cyber Kill Chain
