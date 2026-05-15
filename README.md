@@ -2,9 +2,9 @@
 
 **SOC Analyst | Toronto, Canada**
 
-Splunk · Sysmon · MITRE ATT&CK · Incident Response · AWS Security . EDR/XDR(Microsoft Defender for Sentinel)
+Splunk · Microsoft Sentinel · Microsoft Defender for Endpoint · Sysmon · MITRE ATT&CK · Incident Response · AWS Security
 
-[olayinkaoyetade.com](https://olayinkaoyetade.com) · [LinkedIn](https://www.linkedin.com/in/olayinka-oyetade-0120171a2/) · contact@olayinkaoyetade2914@gmail.com
+[olayinkaoyetade.com](https://olayinkaoyetade.com) · [LinkedIn](https://www.linkedin.com/in/olayinka-oyetade-0120171a2/) · olayinkaoyetade2914@gmail.com
 
 Open to **Tier 1 / Junior SOC Analyst** roles in Toronto, on-site or hybrid.
 
@@ -14,7 +14,7 @@ Open to **Tier 1 / Junior SOC Analyst** roles in Toronto, on-site or hybrid.
 
 I'm a SOC analyst with hands-on alert triage experience, sharpened through self-directed lab work in detection engineering and cloud security.
 
-I build the detection environments I'd defend in production: ingesting endpoint logs, writing SPL queries mapped to MITRE ATT&CK, documenting investigations, and validating coverage by attacking my own labs.
+I build the detection environments I'd defend in production: ingesting endpoint logs, writing SPL and KQL queries mapped to MITRE ATT&CK, documenting investigations, and validating coverage by attacking my own labs.
 
 What I'm focused on: helping SOC teams triage faster, document cleaner, and extend detection visibility across endpoint and cloud.
 
@@ -33,7 +33,7 @@ What I'm focused on: helping SOC teams triage faster, document cleaner, and exte
 
 ### Featured Projects
 
-**[Endpoint Detection Engineering | Splunk, Sysmon, MITRE ATT&CK](https://github.com/Olayinka-Oyetade/splunk-detection-lab)**
+**[Endpoint Detection Engineering | Splunk, Sysmon, MITRE ATT&CK](https://github.com/Olayinka-Oyetade/endpoint-detection-engineering)**
 
 A Windows endpoint detection environment built with Splunk, Sysmon, and Windows Event Logs to simulate SOC-style investigations end to end.
 
@@ -47,7 +47,17 @@ A Windows endpoint detection environment built with Splunk, Sysmon, and Windows 
   * **T1055** Process Injection
 - Documented each detection with investigation steps, expected log signatures, false positive considerations, and response recommendations.
 
-**[Threat Intelligence Automation](https://github.com/Olayinka-Oyetade/threat-intel-automation)**
+**[Microsoft Sentinel Threat Detection | Defender for Endpoint + KQL](https://github.com/Olayinka-Oyetade/sentinel-threat-detection)**
+
+A cloud-native SIEM and XDR lab using Microsoft Sentinel and Microsoft Defender for Endpoint to investigate endpoint and identity threats.
+
+- Connected Microsoft Defender for Endpoint as a data source into Microsoft Sentinel for unified detection visibility.
+- Authored KQL detection rules covering credential dumping, suspicious PowerShell execution, and privilege escalation attempts.
+- Built investigation workbooks for incident triage, alert correlation, and timeline reconstruction.
+- Practiced full incident lifecycle: detection, investigation, containment recommendations, and structured documentation.
+- Mapped detections to MITRE ATT&CK techniques for coverage visibility.
+
+**[IOC Enrichment Pipeline](https://github.com/Olayinka-Oyetade/ioc-enrichment-pipeline)**
 
 A Python-based IOC enrichment pipeline designed to accelerate alert investigation.
 
@@ -56,23 +66,30 @@ A Python-based IOC enrichment pipeline designed to accelerate alert investigatio
 - Persists results to SQLite for audit trails and repeatable review.
 - Built around real SOC triage workflows, designed to plug into investigation rather than exist in isolation.
 
-**[AWS Security Foundations](https://github.com/Olayinka-Oyetade/aws-security-foundations)**
+**[AWS Threat Detection | CloudTrail, GuardDuty, VPC Flow](https://github.com/Olayinka-Oyetade/aws-threat-detection)**
 
-Hands-on cloud security labs focused on visibility, logging, and detection.
+Hands-on cloud security project focused on visibility, logging, and detection across AWS services.
 
-- Working knowledge of IAM, S3 security, CloudTrail, CloudWatch, and VPC Flow Logs.
-- Reviewed cloud activity logs to identify anomalous access patterns.
-- Building toward GuardDuty-based cloud threat detection.
+- Configured CloudTrail, CloudWatch, and VPC Flow Logs for centralized cloud activity monitoring.
+- Reviewed cloud activity logs to identify anomalous access patterns and IAM abuse.
+- Built toward GuardDuty-based threat detection across the AWS environment.
+- Working knowledge of IAM, S3 security, EC2 hardening, and shared responsibility model.
 
 ---
 
 ### Skills
 
-**SIEM & Detection**
-Splunk, SPL, Sysmon, Windows Event Logs, Dashboards, Alerts, MITRE ATT&CK mapping, Detection logic
+**SIEM**
+Splunk, SPL, Microsoft Sentinel, KQL, Dashboard building, Alert tuning, Workbooks
+
+**EDR / XDR**
+Microsoft Defender for Endpoint, Microsoft Defender XDR, Sysmon, Endpoint telemetry analysis
 
 **Incident Response**
-Alert triage, IOC enrichment, Escalation decisions, ServiceNow documentation, Timeline reconstruction
+Alert triage, IOC enrichment, Escalation decisions, ServiceNow documentation, Timeline reconstruction, Containment recommendations
+
+**Detection Engineering**
+MITRE ATT&CK mapping, Detection logic, False positive analysis, Rule tuning
 
 **Cloud Security**
 AWS IAM, EC2, S3, CloudTrail, CloudWatch, VPC Flow Logs, Shared responsibility model
@@ -91,7 +108,7 @@ Terraform, AWS GuardDuty, Sigma rules, CompTIA Security+
 ### What I bring
 
 - **Alert triage from hour one.** I've handled 20 to 50 alerts daily in a live SOC. Comfortable picking up the queue without extended ramp-up.
+- **SIEM and EDR fluency.** Comfortable writing SPL and KQL, building dashboards, and investigating alerts across Splunk, Microsoft Sentinel, and Defender for Endpoint without hand-holding.
 - **Documentation that holds up.** My ServiceNow tickets were written to a standard senior analysts could escalate from directly. Clean documentation reduces context loss across shifts.
-- **Splunk fluency.** SPL queries, dashboard building, and alert investigation without hand-holding for day-to-day work.
 - **Cloud-aware.** Comfortable with AWS logging sources (CloudTrail, VPC Flow) from day one, which matters for any team operating in or migrating to cloud.
 - **Builds to understand.** Every concept I work with, I lab. New tool or detection technique on the team? I'll spin up an environment to test it.
