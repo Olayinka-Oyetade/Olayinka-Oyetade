@@ -6,7 +6,7 @@ Splunk · Microsoft Sentinel · Microsoft Defender for Endpoint · Sysmon · MIT
 
 [olayinkaoyetade.com](https://olayinkaoyetade.com) · [LinkedIn](https://www.linkedin.com/in/olayinka-oyetade-0120171a2/) · olayinkaoyetade2914@gmail.com
 
-Open to **Tier 1 / Junior SOC Analyst** roles in Toronto, on-site or hybrid.
+**Tier 1 / Junior SOC Analyst** roles in Toronto, on-site or hybrid.
 
 ---
 
